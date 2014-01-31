@@ -1,0 +1,106 @@
+@import "global";
+
+[class*="icon-"] {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background-image: url(sprites.svg);
+	background-repeat: no-repeat;
+}
+.icon-facebook {
+	background-position: 0 0;
+	width: 32px;
+}
+.icon-twitter {
+	background-position: -48px 0;
+	width: 32px;
+}
+.icon-arrow-right {
+	background-position: -96px 0;
+	width: 32px;
+}
+.icon-plus {
+	background-position: -144px 0;
+	width: 32px;
+}
+.icon-search {
+	background-position: -192px 0;
+	width: 32px;
+}
+.icon-binoculars {
+	background-position: -240px 0;
+	width: 32px;
+}
+.icon-spinner {
+	background-position: -288px 0;
+	width: 32px;
+}
+.icon-spinner2 {
+	background-position: -336px 0;
+	width: 32px;
+}
+.icon-key {
+	background-position: -384px 0;
+	width: 32px;
+}
+.icon-signup {
+	background-position: -432px 0;
+	width: 32px;
+}
+.icon-envelope {
+	background-position: -480px 0;
+	width: 32px;
+}
+.icon-paperplane {
+	background-position: -528px 0;
+	width: 32px;
+}
+.icon-connection {
+	background-position: -576px 0;
+	width: 40px;
+}
+.icon-tag {
+	background-position: -632px 0;
+	width: 32px;
+}
+.icon-tags {
+	background-position: -680px 0;
+	width: 34px;
+}
+.icon-quill {
+	background-position: -730px 0;
+	width: 32px;
+}
+.icon-pencil {
+	background-position: 0 -48px;
+}
+.icon-office {
+	background-position: -48px -48px;
+}
+.icon-headphones {
+	background-position: -96px -48px;
+}
+.icon-film {
+	background-position: -144px -48px;
+}
+.icon-play {
+	background-position: -192px -48px;
+}
+.icon-library {
+	background-position: -240px -48px;
+}
+.icon-books {
+	background-position: -288px -48px;
+}
+.icon-compass {
+	background-position: -336px -48px;
+}
+.icon-location {
+	background-position: -384px -48px;
+}
+.icon-map {
+	background-position: -432px -48px;
+}
+.icon-arrow-left {
+	background-position: -480px -48px;
+}
