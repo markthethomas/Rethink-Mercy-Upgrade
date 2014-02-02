@@ -46,7 +46,7 @@ body {
 
 /* line 330, ../scss/foundation/components/_global.scss */
 body {
-  background: #f3f3f4;
+  background: transparent;
   color: #3a3c3f;
   padding: 0;
   margin: 0;
@@ -3064,28 +3064,154 @@ button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert
     padding-top: 0;
   }
 }
-/* line 3, ../scss/foundation/components/_drive-thru.scss */
-.wrapper {
-  z-index: -100;
-  position: absolute;
-  width: 100%;
+/*	BigVideo Styles 
+	You may need to adjust these styles to get this working right in your design. 
+*/
+/* line 6, ../scss/foundation/components/_drive-thru.scss */
+#big-video-wrap {
+  overflow: hidden;
+  position: fixed;
   height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
+
+/* line 7, ../scss/foundation/components/_drive-thru.scss */
+#big-video-vid, #big-video-image {
+  position: absolute;
+}
+
 /* line 8, ../scss/foundation/components/_drive-thru.scss */
-.wrapper .theatre {
+#big-video-control-container {
+  position: fixed;
+  bottom: 20px;
+  padding: 0 20px;
+  width: 100%;
+  -webkit-transition-duration: 0.6s;
+  -moz-transition-duration: 0.6s;
+  -ms-transition-duration: 0.6s;
+  -o-transition-duration: 0.6s;
+  transition-duration: 0.6s;
+}
+
+/* line 10, ../scss/foundation/components/_drive-thru.scss */
+#big-video-control {
+  width: 100%;
+  height: 16px;
+  position: relative;
+}
+
+/* line 11, ../scss/foundation/components/_drive-thru.scss */
+#big-video-control-middle {
+  margin: 0 56px 0 24px;
+}
+
+/* line 12, ../scss/foundation/components/_drive-thru.scss */
+#big-video-control-bar {
+  width: 100%;
+  height: 16px;
+  position: relative;
+  cursor: pointer;
+}
+
+/* line 13, ../scss/foundation/components/_drive-thru.scss */
+#big-video-control-progress {
+  position: absolute;
+  top: 7px;
+  height: 3px;
+  width: 0%;
+  background: #fff;
+}
+
+/* line 14, ../scss/foundation/components/_drive-thru.scss */
+#big-video-control-track {
+  position: absolute;
+  top: 8px;
+  height: 1px;
+  width: 100%;
+  background: #fff;
+}
+
+/* line 15, ../scss/foundation/components/_drive-thru.scss */
+#big-video-control-bound-left {
+  left: 0;
+}
+
+/* line 16, ../scss/foundation/components/_drive-thru.scss */
+#big-video-control-bound-right {
+  right: -1px;
+}
+
+/* line 17, ../scss/foundation/components/_drive-thru.scss */
+#big-video-control-track .ui-slider-handle {
+  opacity: 0;
+}
+
+/* line 18, ../scss/foundation/components/_drive-thru.scss */
+#big-video-control-playhead {
+  left: 30%;
+}
+
+/* line 19, ../scss/foundation/components/_drive-thru.scss */
+#big-video-control-play {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 16px;
+  width: 16px;
+  background-image: url("bigvideo.png");
+}
+
+/* line 20, ../scss/foundation/components/_drive-thru.scss */
+#big-video-control-timer {
+  position: absolute;
+  top: 1px;
+  right: 0;
+  color: #fff;
+  font-size: 11px;
+}
+
+/* line 21, ../scss/foundation/components/_drive-thru.scss */
+#big-video-control-playhead, #big-video-control-bound-left, #big-video-control-bound-right {
+  position: absolute;
+  top: 0;
+  height: 16px;
+  width: 1px;
+  background: #fff;
+}
+
+/* line 22, ../scss/foundation/components/_drive-thru.scss */
+#big-video-control .ui-slider-handle {
+  border-left: solid 1px #fff;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: -8px;
+}
+
+/* line 23, ../scss/foundation/components/_drive-thru.scss */
+.transparent {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  -moz-opacity: 0;
+  -khtml-opacity: 0;
+  opacity: 0;
+}
+
+/* line 24, ../scss/foundation/components/_drive-thru.scss */
+.vjs-big-play-button {
+  display: none !important;
+}
+
+/* line 28, ../scss/foundation/components/_drive-thru.scss */
+.screen {
   position: relative;
   height: 100%;
-  width: 100%;
-  /* total number of     videos/100%      */
+  width: 20%;
+  /*  NOTE:numVideos/100%  */
   float: left;
   overflow: hidden;
-}
-/* line 15, ../scss/foundation/components/_drive-thru.scss */
-.wrapper .theatre .big-image-fallback {
-  min-height: 100%;
-  min-height: 100%;
-  height: auto;
-  width: auto;
 }
 
 @media only screen and (max-width: 40em) {
@@ -3287,6 +3413,65 @@ button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert
 /* line 122, ../scss/foundation/components/_dropdown-buttons.scss */
 .dropdown.button.secondary:before {
   border-color: #333333 transparent transparent transparent;
+}
+
+/*this area controls what comes before and after the featured area*/
+/* line 5, ../scss/foundation/components/_featured-banner.scss */
+#morebutton {
+  text-align: middle;
+  font-size: 2rem;
+  margin-top: -9.5rem;
+  z-index: 100;
+  position: relative;
+  bottom: 0;
+  padding-bottom: 9.5rem;
+}
+
+/*we use this area to style the featured content*/
+/* line 21, ../scss/foundation/components/_featured-banner.scss */
+.featured {
+  background-color: #0065a4;
+  opacity: .8;
+  min-width: 100%;
+  padding-top: 6rem;
+  color: white;
+}
+/* line 27, ../scss/foundation/components/_featured-banner.scss */
+.featured #equip {
+  color: white;
+}
+/* line 30, ../scss/foundation/components/_featured-banner.scss */
+.featured h1, .featured h2, .featured h3, .featured h4, .featured h5, .featured h6, .featured p {
+  color: white;
+  opacity: 1;
+}
+/* line 34, ../scss/foundation/components/_featured-banner.scss */
+.featured .button {
+  background-color: #0065a4;
+  color: white;
+  border: 1px solid white;
+}
+/* line 38, ../scss/foundation/components/_featured-banner.scss */
+.featured .button:hover {
+  background-color: white;
+  color: #0065a4;
+}
+
+/*this area will be where we style the overview sections*/
+/* line 47, ../scss/foundation/components/_featured-banner.scss */
+#full-2 {
+  background-color: white;
+  min-width: 100%;
+}
+/* line 50, ../scss/foundation/components/_featured-banner.scss */
+#full-2 #whatisrm {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* line 57, ../scss/foundation/components/_featured-banner.scss */
+.overview img {
+  max-width: 80px;
 }
 
 /* line 45, ../scss/foundation/components/_flex-video.scss */
