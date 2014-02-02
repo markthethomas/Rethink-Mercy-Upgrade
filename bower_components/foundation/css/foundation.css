@@ -50,7 +50,7 @@ body {
   color: #3a3c3f;
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "PT Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1;
@@ -1634,7 +1634,7 @@ select {
   color: #222222;
   padding: 1rem;
   display: block;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "PT Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 1rem;
 }
 /* line 36, ../scss/foundation/components/_accordion.scss */
@@ -2379,7 +2379,7 @@ button, .button {
   border-style: solid;
   border-width: 0px;
   cursor: pointer;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "PT Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -3420,25 +3420,26 @@ button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert
 #morebutton {
   text-align: middle;
   font-size: 2rem;
-  margin-top: -9.5rem;
+  /*	margin-top: -9rem;
+  */
   z-index: 100;
   position: relative;
   bottom: 0;
-  padding-bottom: 9.5rem;
 }
 
 /*we use this area to style the featured content*/
-/* line 21, ../scss/foundation/components/_featured-banner.scss */
+/* line 20, ../scss/foundation/components/_featured-banner.scss */
 .featured {
   background-color: #0065a4;
   opacity: .8;
   min-width: 100%;
-  padding-top: 6rem;
+  padding-top: 7rem;
   color: white;
 }
-/* line 27, ../scss/foundation/components/_featured-banner.scss */
+/* line 26, ../scss/foundation/components/_featured-banner.scss */
 .featured #equip {
   color: white;
+  vertical-align: middle;
 }
 /* line 30, ../scss/foundation/components/_featured-banner.scss */
 .featured h1, .featured h2, .featured h3, .featured h4, .featured h5, .featured h6, .featured p {
@@ -3456,20 +3457,24 @@ button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert
   background-color: white;
   color: #0065a4;
 }
+/* line 42, ../scss/foundation/components/_featured-banner.scss */
+.featured .button #side {
+  vertical-align: middle;
+}
 
 /*this area will be where we style the overview sections*/
-/* line 47, ../scss/foundation/components/_featured-banner.scss */
+/* line 50, ../scss/foundation/components/_featured-banner.scss */
 #full-2 {
   background-color: white;
   min-width: 100%;
 }
-/* line 50, ../scss/foundation/components/_featured-banner.scss */
+/* line 53, ../scss/foundation/components/_featured-banner.scss */
 #full-2 #whatisrm {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
 
-/* line 57, ../scss/foundation/components/_featured-banner.scss */
+/* line 60, ../scss/foundation/components/_featured-banner.scss */
 .overview img {
   max-width: 80px;
 }
@@ -4009,32 +4014,31 @@ footer {
   background-color: #373737;
   color: white;
   text-align: center;
-  margin-top: 3rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
   min-height: 100px;
   /*creating interior borders*/
   /*styling links*/
 }
-/* line 13, ../scss/foundation/components/_footer.scss */
+/* line 12, ../scss/foundation/components/_footer.scss */
 footer h1, footer h2, footer h3, footer h4, footer h5, footer h6, footer a {
   color: white;
 }
-/* line 17, ../scss/foundation/components/_footer.scss */
+/* line 16, ../scss/foundation/components/_footer.scss */
 footer #leftsection {
   border-right: 1px solid rgba(255, 255, 255, 0.2);
   height: 75px;
 }
-/* line 23, ../scss/foundation/components/_footer.scss */
+/* line 22, ../scss/foundation/components/_footer.scss */
 footer #rightsection {
   border-left: 1px solid rgba(255, 255, 255, 0.2);
   height: 75px;
 }
-/* line 28, ../scss/foundation/components/_footer.scss */
+/* line 27, ../scss/foundation/components/_footer.scss */
 footer a:hover {
   color: white;
 }
-/* line 32, ../scss/foundation/components/_footer.scss */
+/* line 31, ../scss/foundation/components/_footer.scss */
 footer #copyright {
   margin-bottom: -1rem;
   margin-top: -1rem;
@@ -4441,7 +4445,7 @@ kbd {
 /* line 87, ../scss/foundation/components/_labels.scss */
 .label {
   font-weight: normal;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "PT Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   text-align: center;
   text-decoration: none;
   line-height: 1;
@@ -5005,7 +5009,7 @@ ul.pagination li {
   color: #eeeeee;
   font-weight: normal;
   font-size: 1rem;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "PT Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 /* line 139, ../scss/foundation/components/_pricing-tables.scss */
 .pricing-table .price {
@@ -5015,7 +5019,7 @@ ul.pagination li {
   color: #333333;
   font-weight: normal;
   font-size: 2rem;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "PT Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 /* line 140, ../scss/foundation/components/_pricing-tables.scss */
 .pricing-table .description {
@@ -5324,7 +5328,7 @@ ul.pagination li {
   padding: 0.875rem 0;
   list-style-type: none;
   list-style-position: inside;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "PT Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 /* line 54, ../scss/foundation/components/_side-nav.scss */
 .side-nav li {
@@ -5341,7 +5345,7 @@ ul.pagination li {
 .side-nav li.active > a:first-child {
   color: #4d4d4d;
   font-weight: normal;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "PT Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 /* line 69, ../scss/foundation/components/_side-nav.scss */
 .side-nav li.divider {
@@ -5516,7 +5520,7 @@ ul.pagination li {
   display: inline;
   margin-left: 1rem;
   margin-bottom: 0.625rem;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "PT Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 0.875rem;
   color: #999999;
@@ -5861,7 +5865,7 @@ table tfoot tr td {
   padding-right: 2rem;
   padding-bottom: 1.0625rem;
   padding-left: 2rem;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "PT Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 1rem;
 }
 /* line 43, ../scss/foundation/components/_tabs.scss */
@@ -6272,15 +6276,15 @@ meta.foundation-mq-topbar {
   color: #3a3c3f;
   padding: 12px 0 12px 0;
   padding-left: 23.33333px;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-size: 0.8375rem;
+  font-family: "PT Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 0.84063rem;
   font-weight: normal;
   background: white;
 }
 /* line 299, ../scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button {
   background: #0065a4;
-  font-size: 0.8375rem;
+  font-size: 0.84063rem;
   padding-right: 23.33333px;
   padding-left: 23.33333px;
 }
@@ -6672,7 +6676,7 @@ p aside {
 /* Default header styles */
 /* line 181, ../scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "PT Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-style: normal;
   color: #222222;
