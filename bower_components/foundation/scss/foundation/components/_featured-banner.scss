@@ -2,6 +2,10 @@
 
 /*this area controls what comes before and after the featured area*/
 
+hr {
+	color: white;
+}
+
 #morebutton {
 	text-align: middle;
 	font-size: 2rem;
@@ -11,10 +15,8 @@
 	bottom: 0;
 }
 
-.video-container {
 
-}
-
+/*================================================*/
 
 /*we use this area to style the featured content*/
 .featured {
@@ -45,6 +47,8 @@
 	}
 }
 
+/*================================================*/
+
 /*this area will be where we style the overview sections*/
 
 #full-2 {
@@ -62,6 +66,22 @@
 	}
 }
 
+/*================================================*/
+
+/*This area controls the featured posts section*/
+
+#full-3 {
+	background-color: #3EAB71;
+	min-width: 100%;
+	opacity: .95;
+	h1, h2, h3, h4, h5, h6, p {
+		color: white;
+	}
+}
+
+#whatson {
+
+}
 
 
 

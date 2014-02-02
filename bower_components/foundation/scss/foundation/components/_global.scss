@@ -200,7 +200,7 @@ $base-line-height: 150% !default;
 // We use these to control various global styles
 $body-bg: transparent !default;
 $body-font-color: #3a3c3f !default;
-$body-font-family: "PT Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !default;
+$body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !default;
 $body-font-weight: normal !default;
 $body-font-style: normal !default;
 
@@ -396,4 +396,12 @@ $cursor-text-value: text !default;
     // Make select elements 100% width by default
     select { width: 100%; }
   }
+}
+
+/*==========================*/
+/*Some of my own styles*/
+/*Perfect circle*/
+
+.img-circle {
+  border-radius: 50%; // set radius in percents
 }
