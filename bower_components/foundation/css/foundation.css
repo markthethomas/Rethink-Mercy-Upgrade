@@ -3536,12 +3536,12 @@ button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert
 }
 
 /*this area controls what comes before and after the featured area*/
-/* line 5, ../scss/foundation/components/_featured-banner.scss */
+/* line 7, ../scss/foundation/components/_featured-banner.scss */
 hr {
   color: white;
 }
 
-/* line 9, ../scss/foundation/components/_featured-banner.scss */
+/* line 11, ../scss/foundation/components/_featured-banner.scss */
 #morebutton {
   text-align: middle;
   font-size: 2rem;
@@ -3554,7 +3554,7 @@ hr {
 
 /*================================================*/
 /*we use this area to style the featured content*/
-/* line 22, ../scss/foundation/components/_featured-banner.scss */
+/* line 24, ../scss/foundation/components/_featured-banner.scss */
 .featured {
   background-color: #0065a4;
   opacity: .8;
@@ -3562,61 +3562,74 @@ hr {
   padding-top: 7rem;
   color: white;
 }
-/* line 28, ../scss/foundation/components/_featured-banner.scss */
+/* line 30, ../scss/foundation/components/_featured-banner.scss */
 .featured #equip {
   color: white;
   vertical-align: middle;
 }
-/* line 32, ../scss/foundation/components/_featured-banner.scss */
+/* line 34, ../scss/foundation/components/_featured-banner.scss */
 .featured h1, .featured h2, .featured h3, .featured h4, .featured h5, .featured h6, .featured p {
   color: white;
   opacity: 1;
 }
-/* line 36, ../scss/foundation/components/_featured-banner.scss */
+/* line 38, ../scss/foundation/components/_featured-banner.scss */
 .featured .button {
   background-color: #0065a4;
   color: white;
   border: 1px solid white;
 }
-/* line 40, ../scss/foundation/components/_featured-banner.scss */
+/* line 42, ../scss/foundation/components/_featured-banner.scss */
 .featured .button:hover {
   background-color: white;
   color: #0065a4;
 }
-/* line 44, ../scss/foundation/components/_featured-banner.scss */
+/* line 46, ../scss/foundation/components/_featured-banner.scss */
 .featured .button #side {
   vertical-align: middle;
 }
 
 /*================================================*/
 /*this area will be where we style the overview sections*/
-/* line 54, ../scss/foundation/components/_featured-banner.scss */
+/* line 56, ../scss/foundation/components/_featured-banner.scss */
 #full-2 {
   background-color: white;
   min-width: 100%;
 }
-/* line 57, ../scss/foundation/components/_featured-banner.scss */
+/* line 59, ../scss/foundation/components/_featured-banner.scss */
 #full-2 #whatisrm {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
 
-/* line 64, ../scss/foundation/components/_featured-banner.scss */
+/* line 66, ../scss/foundation/components/_featured-banner.scss */
 .overview img {
   max-width: 80px;
 }
 
 /*================================================*/
 /*This area controls the featured posts section*/
-/* line 73, ../scss/foundation/components/_featured-banner.scss */
+/* line 75, ../scss/foundation/components/_featured-banner.scss */
 #full-3 {
-  background-color: #3EAB71;
+  background-color: #3eab71;
   min-width: 100%;
   opacity: .95;
+  color: white;
 }
-/* line 77, ../scss/foundation/components/_featured-banner.scss */
+/* line 80, ../scss/foundation/components/_featured-banner.scss */
 #full-3 h1, #full-3 h2, #full-3 h3, #full-3 h4, #full-3 h5, #full-3 h6, #full-3 p {
   color: white;
+}
+
+/* line 90, ../scss/foundation/components/_featured-banner.scss */
+#greenbutton {
+  border: 1px solid white;
+  background-color: #3eab71;
+  min-width: 100%;
+}
+/* line 94, ../scss/foundation/components/_featured-banner.scss */
+#greenbutton:hover {
+  background-color: white;
+  color: #3eab71;
 }
 
 /*==========================*/

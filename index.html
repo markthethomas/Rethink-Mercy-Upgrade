@@ -183,35 +183,47 @@
             </div>
         </div>
     </div>
+    <!-- begin featured posts section -->
 
-<!-- begin featured posts section -->
+    <div id="full-3" class="row">
+        <div class="large-12 columns large-centered">
+            <h2 class="text-center" id="whatson">What's happening at rethink mercy?</h2>
+            <hr>
+            <div class="row">
+                <div class="large-6 columns">
+                    <h2>The 2014 Rethink Mercy Conference</h2>
+                    <h3>A Call to Gospel-Centered Mercy Ministry</h3>
+                    <hr>
 
-<div id="full-3" class="row">
-  <div class="large-12 columns large-centered">
-    <h1 class="text-center" id="whatson">What's happening at rethink mercy?</h1>
-    <hr>
-  </div>
-  <div class="large-12-columns">
-    <div class="large-6 columns">
-      <h3>The 2015 Rethink Mercy Conference</h3>
-          <hr>
-          <p>Friday, April 11, 2014 <br>
-Immediately following Together for the Gospel
-at The Southern Baptist Theological Seminary in Louisville, Kentucky</p>
+                    <img src="http://maps.googleapis.com/maps/api/staticmap?center=Southern+Baptist+Seminary,+Lexington+Road,+Louisville,+KY&zoom=14&size=600x300&maptype=roadmap&markers=color:blue%7C34.0535484,-118.2937664&sensor=false
+" alt="">
+                    <hr>
+                    <p>
+                        <b>When?</b>: Friday, April 11, 2014, Immediately following the Together for the Gospel
+                        <br>
+                        <b>Where?</b>: at The Southern Baptist Theological Seminary in Louisville, Kentucky
+                        <br>
+                    </p>
+                    <button id="greenbutton" class="radius large">Register Today</button>
+                </div>
+                <div class="large-6 columns">
+                    <h3>Featuring</h3>
+                    <hr>
+                    <div class="row">
+                        <div class="large-6">
+                            <img class="radius" src="library/images/RM-conference/bw_albertmohler.jpg" alt="">
+                        </div>
+                        <div class="large-6">
+                            <img src="library/images/RM-conference/bw_dlewis.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
     </div>
-    <div class="large-3">
-      <img src="library/images/rm-conference/bw_albertmohler.jpg" alt="" class="img-circle">
-      <hr>
-      <p>“The Gospel is not a message of social salvation, but it does have social implications. The church is not to adopt a social reform platform as its message, but the faithful church, wherever it is found, is itself a social reform movement precisely because it is populated by redeemed sinners who are called to faithfulness in following Christ. I look forward to the Rethink Mercy Conference where we can examine what God’s Word says about the primacy of the gospel and its implications for mercy ministry in the Church.”
-      <br><em>-Dr. Albert Mohler</em>
-</p>
-    </div>
-    <div class="large-3"></div>
-  </div>
-
-
-
-</div>
 
     <!-- begin future footer.php -->
     <footer>
@@ -309,7 +321,7 @@ at The Southern Baptist Theological Seminary in Louisville, Kentucky</p>
         $('#full').css('min-height', windowHeight);
     });
     </script>
-    
+
     <script>
     $(document).ready(function() {
         windowHeight = $(window).height();
@@ -317,7 +329,7 @@ at The Southern Baptist Theological Seminary in Louisville, Kentucky</p>
     });
     </script>
 
-     <script>
+    <script>
     $(document).ready(function() {
         windowHeight = $(window).height();
         $('#full-3').css('min-height', windowHeight);
@@ -346,6 +358,13 @@ at The Southern Baptist Theological Seminary in Louisville, Kentucky</p>
     });
     </script>
 
+    <script type="text/javascript">
+    $("#confdetails").fitText(1.9, {
+        minFontSize: '4rem',
+        maxFontSize: '100rem'
+    });
+    </script>
+
     <!-- testing video background -->
     <script type="text/javascript">
     $(document).ready(function() {
@@ -355,8 +374,10 @@ at The Southern Baptist Theological Seminary in Louisville, Kentucky</p>
             zIndex: 0,
             mp4: 'https://s3-us-west-1.amazonaws.com/chfpastespace/shorter.mp4',
             opacity: 1,
+            autoplay:true,
+            loop:true,
             fullscreen: true,
-            poster: 'assets/tunnel_animation.jpg',
+            // poster: 'library/video/poster.png',
         });
     });
     </script>

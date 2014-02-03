@@ -1,5 +1,7 @@
 @import "global";
 
+$rethink-green: #3EAB71;
+
 /*this area controls what comes before and after the featured area*/
 
 hr {
@@ -71,9 +73,10 @@ hr {
 /*This area controls the featured posts section*/
 
 #full-3 {
-	background-color: #3EAB71;
+	background-color: $rethink-green;
 	min-width: 100%;
 	opacity: .95;
+	color: white;
 	h1, h2, h3, h4, h5, h6, p {
 		color: white;
 	}
@@ -84,5 +87,15 @@ hr {
 }
 
 
+#greenbutton {
+	border: 1px solid white;
+	background-color: $rethink-green;
+	min-width: 100%;
+	&:hover {
+		background-color: white;
+		color: $rethink-green;
+
+	}
+}
 
 
