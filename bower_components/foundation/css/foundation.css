@@ -192,12 +192,24 @@ select {
   border-radius: 50%;
 }
 
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
+}
+
 /*==========================*/
 /*Some of my own styles*/
 /*Perfect circle*/
 /* line 405, ../scss/foundation/components/_global.scss */
 .img-circle {
   border-radius: 50%;
+}
+
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
 }
 
 /* line 198, ../scss/foundation/components/_grid.scss */
@@ -1676,6 +1688,12 @@ select {
   border-radius: 50%;
 }
 
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
+}
+
 /* line 4, ../scss/foundation/components/_article.scss */
 .white-bg {
   background: white;
@@ -1687,6 +1705,12 @@ select {
 /* line 405, ../scss/foundation/components/_global.scss */
 .img-circle {
   border-radius: 50%;
+}
+
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
 }
 
 /* line 102, ../scss/foundation/components/_alert-boxes.scss */
@@ -1768,6 +1792,12 @@ select {
   border-radius: 50%;
 }
 
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
+}
+
 /* line 4, ../scss/foundation/components/_banner-container.scss */
 #banner-container {
   margin-top: -5px;
@@ -1779,6 +1809,12 @@ select {
 /* line 405, ../scss/foundation/components/_global.scss */
 .img-circle {
   border-radius: 50%;
+}
+
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
 }
 
 /* line 70, ../scss/foundation/components/_block-grid.scss */
@@ -2356,6 +2392,12 @@ select {
   border-radius: 50%;
 }
 
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
+}
+
 /* line 114, ../scss/foundation/components/_breadcrumbs.scss */
 .breadcrumbs {
   display: block;
@@ -2438,12 +2480,24 @@ select {
   border-radius: 50%;
 }
 
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
+}
+
 /*==========================*/
 /*Some of my own styles*/
 /*Perfect circle*/
 /* line 405, ../scss/foundation/components/_global.scss */
 .img-circle {
   border-radius: 50%;
+}
+
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
 }
 
 /* line 199, ../scss/foundation/components/_buttons.scss */
@@ -2913,12 +2967,24 @@ button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert
   border-radius: 50%;
 }
 
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
+}
+
 /*==========================*/
 /*Some of my own styles*/
 /*Perfect circle*/
 /* line 405, ../scss/foundation/components/_global.scss */
 .img-circle {
   border-radius: 50%;
+}
+
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
 }
 
 /* Clearing Styles */
@@ -3160,6 +3226,12 @@ button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert
   border-radius: 50%;
 }
 
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
+}
+
 /*	BigVideo Styles 
 	You may need to adjust these styles to get this working right in your design. 
 */
@@ -3318,6 +3390,12 @@ button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert
   border-radius: 50%;
 }
 
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
+}
+
 @media only screen and (max-width: 40em) {
   /* line 135, ../scss/foundation/components/_dropdown.scss */
   .f-dropdown {
@@ -3454,6 +3532,12 @@ button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert
   border-radius: 50%;
 }
 
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
+}
+
 /* line 118, ../scss/foundation/components/_dropdown-buttons.scss */
 .dropdown.button {
   position: relative;
@@ -3535,6 +3619,12 @@ button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert
   border-radius: 50%;
 }
 
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
+}
+
 /*this area controls what comes before and after the featured area*/
 /* line 7, ../scss/foundation/components/_featured-banner.scss */
 hr {
@@ -3544,92 +3634,147 @@ hr {
 /* line 11, ../scss/foundation/components/_featured-banner.scss */
 #morebutton {
   text-align: middle;
-  font-size: 2rem;
-  /*	margin-top: -9rem;
-  */
-  z-index: 100;
+  margin-top: -9rem;
   position: relative;
   bottom: 0;
+  min-width: 100%;
+  right: auto;
+  left: auto;
+}
+
+/* line 22, ../scss/foundation/components/_featured-banner.scss */
+#morebutton-blue {
+  text-align: middle;
+  position: relative;
+  bottom: 0;
+  min-width: 100%;
+  right: auto;
+  left: auto;
 }
 
 /*================================================*/
 /*we use this area to style the featured content*/
-/* line 24, ../scss/foundation/components/_featured-banner.scss */
+/* line 35, ../scss/foundation/components/_featured-banner.scss */
 .featured {
   background-color: #0065a4;
   opacity: .8;
   min-width: 100%;
-  padding-top: 7rem;
+  padding-top: 15%;
+  padding-left: 1%;
+  padding-right: 1%;
   color: white;
 }
-/* line 30, ../scss/foundation/components/_featured-banner.scss */
+/* line 43, ../scss/foundation/components/_featured-banner.scss */
 .featured #equip {
   color: white;
   vertical-align: middle;
 }
-/* line 34, ../scss/foundation/components/_featured-banner.scss */
+/* line 47, ../scss/foundation/components/_featured-banner.scss */
 .featured h1, .featured h2, .featured h3, .featured h4, .featured h5, .featured h6, .featured p {
   color: white;
   opacity: 1;
 }
-/* line 38, ../scss/foundation/components/_featured-banner.scss */
+/* line 51, ../scss/foundation/components/_featured-banner.scss */
 .featured .button {
   background-color: #0065a4;
   color: white;
   border: 1px solid white;
 }
-/* line 42, ../scss/foundation/components/_featured-banner.scss */
+/* line 55, ../scss/foundation/components/_featured-banner.scss */
 .featured .button:hover {
   background-color: white;
   color: #0065a4;
 }
-/* line 46, ../scss/foundation/components/_featured-banner.scss */
+/* line 59, ../scss/foundation/components/_featured-banner.scss */
 .featured .button #side {
   vertical-align: middle;
 }
 
 /*================================================*/
 /*this area will be where we style the overview sections*/
-/* line 56, ../scss/foundation/components/_featured-banner.scss */
+/* line 69, ../scss/foundation/components/_featured-banner.scss */
 #full-2 {
   background-color: white;
   min-width: 100%;
+  opacity: .9;
 }
-/* line 59, ../scss/foundation/components/_featured-banner.scss */
+/* line 73, ../scss/foundation/components/_featured-banner.scss */
 #full-2 #whatisrm {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
 
-/* line 66, ../scss/foundation/components/_featured-banner.scss */
+/* line 80, ../scss/foundation/components/_featured-banner.scss */
 .overview img {
   max-width: 80px;
 }
 
+/* line 85, ../scss/foundation/components/_featured-banner.scss */
+#bluebutton {
+  border: 1px solid #0065a4;
+  background-color: white;
+  min-width: 100%;
+  color: #0065a4;
+}
+/* line 90, ../scss/foundation/components/_featured-banner.scss */
+#bluebutton:hover {
+  background-color: #0065a4;
+  color: white;
+}
+
 /*================================================*/
 /*This area controls the featured posts section*/
-/* line 75, ../scss/foundation/components/_featured-banner.scss */
+/* line 101, ../scss/foundation/components/_featured-banner.scss */
 #full-3 {
   background-color: #3eab71;
   min-width: 100%;
   opacity: .95;
   color: white;
 }
-/* line 80, ../scss/foundation/components/_featured-banner.scss */
+/* line 106, ../scss/foundation/components/_featured-banner.scss */
 #full-3 h1, #full-3 h2, #full-3 h3, #full-3 h4, #full-3 h5, #full-3 h6, #full-3 p {
   color: white;
 }
 
-/* line 90, ../scss/foundation/components/_featured-banner.scss */
+/* line 113, ../scss/foundation/components/_featured-banner.scss */
+#featuring {
+  padding-top: 2rem;
+  padding-bottom: .89rem;
+}
+
+/* line 118, ../scss/foundation/components/_featured-banner.scss */
 #greenbutton {
   border: 1px solid white;
   background-color: #3eab71;
   min-width: 100%;
 }
-/* line 94, ../scss/foundation/components/_featured-banner.scss */
+/* line 122, ../scss/foundation/components/_featured-banner.scss */
 #greenbutton:hover {
   background-color: white;
   color: #3eab71;
+}
+
+/*================================================*/
+/*This is the featured posts area*/
+/* line 134, ../scss/foundation/components/_featured-banner.scss */
+#full-4 {
+  background-color: #5d5d5d;
+  color: white;
+  min-width: 100%;
+}
+/* line 138, ../scss/foundation/components/_featured-banner.scss */
+#full-4 h1, #full-4 h2, #full-4 h3, #full-4 h4, #full-4 h5, #full-4 h6, #full-4 a {
+  color: white;
+}
+
+/*================================================*/
+/*Table styling*/
+/* line 146, ../scss/foundation/components/_featured-banner.scss */
+table, thead, tr, td, tbody {
+  background-color: #3eab71;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
 }
 
 /*==========================*/
@@ -3638,6 +3783,12 @@ hr {
 /* line 405, ../scss/foundation/components/_global.scss */
 .img-circle {
   border-radius: 50%;
+}
+
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
 }
 
 /* line 45, ../scss/foundation/components/_flex-video.scss */
@@ -3677,12 +3828,24 @@ hr {
   border-radius: 50%;
 }
 
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
+}
+
 /*==========================*/
 /*Some of my own styles*/
 /*Perfect circle*/
 /* line 405, ../scss/foundation/components/_global.scss */
 .img-circle {
   border-radius: 50%;
+}
+
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
 }
 
 /* Standard Forms */
@@ -4193,6 +4356,12 @@ label.error {
   border-radius: 50%;
 }
 
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
+}
+
 /*this is where we style the footer*/
 /* line 4, ../scss/foundation/components/_footer.scss */
 footer {
@@ -4237,12 +4406,24 @@ footer #copyright {
   border-radius: 50%;
 }
 
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
+}
+
 /*==========================*/
 /*Some of my own styles*/
 /*Perfect circle*/
 /* line 405, ../scss/foundation/components/_global.scss */
 .img-circle {
   border-radius: 50%;
+}
+
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
 }
 
 /* line 3, ../scss/foundation/components/_icons.scss */
@@ -4413,6 +4594,12 @@ footer #copyright {
   border-radius: 50%;
 }
 
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
+}
+
 /* line 48, ../scss/foundation/components/_inline-lists.scss */
 .inline-list {
   margin: 0 auto 1.0625rem auto;
@@ -4440,6 +4627,12 @@ footer #copyright {
 /* line 405, ../scss/foundation/components/_global.scss */
 .img-circle {
   border-radius: 50%;
+}
+
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
 }
 
 /* Foundation Joyride */
@@ -4651,6 +4844,12 @@ footer #copyright {
   border-radius: 50%;
 }
 
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
+}
+
 /* line 52, ../scss/foundation/components/_keystrokes.scss */
 .keystroke,
 kbd {
@@ -4673,6 +4872,12 @@ kbd {
 /* line 405, ../scss/foundation/components/_global.scss */
 .img-circle {
   border-radius: 50%;
+}
+
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
 }
 
 /* line 87, ../scss/foundation/components/_labels.scss */
@@ -4725,6 +4930,12 @@ kbd {
   border-radius: 50%;
 }
 
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
+}
+
 /* line 14, ../scss/foundation/components/_magellan.scss */
 [data-magellan-expedition] {
   background: white;
@@ -4751,6 +4962,12 @@ kbd {
 /* line 405, ../scss/foundation/components/_global.scss */
 .img-circle {
   border-radius: 50%;
+}
+
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
 }
 
 @-webkit-keyframes rotate {
@@ -5112,6 +5329,12 @@ kbd {
   border-radius: 50%;
 }
 
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
+}
+
 /* line 132, ../scss/foundation/components/_pagination.scss */
 ul.pagination {
   display: block;
@@ -5181,6 +5404,12 @@ ul.pagination li {
 /* line 405, ../scss/foundation/components/_global.scss */
 .img-circle {
   border-radius: 50%;
+}
+
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
 }
 
 /* Panels */
@@ -5262,6 +5491,12 @@ ul.pagination li {
   border-radius: 50%;
 }
 
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
+}
+
 /* Pricing Tables */
 /* line 135, ../scss/foundation/components/_pricing-tables.scss */
 .pricing-table {
@@ -5330,6 +5565,12 @@ ul.pagination li {
   border-radius: 50%;
 }
 
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
+}
+
 /* Progress Bar */
 /* line 53, ../scss/foundation/components/_progress-bars.scss */
 .progress {
@@ -5390,6 +5631,12 @@ ul.pagination li {
 /* line 405, ../scss/foundation/components/_global.scss */
 .img-circle {
   border-radius: 50%;
+}
+
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
 }
 
 /* line 138, ../scss/foundation/components/_reveal.scss */
@@ -5618,6 +5865,12 @@ ul.pagination li {
   border-radius: 50%;
 }
 
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
+}
+
 /* line 87, ../scss/foundation/components/_side-nav.scss */
 .side-nav {
   display: block;
@@ -5667,12 +5920,10 @@ ul.pagination li {
   border-radius: 50%;
 }
 
-/*==========================*/
-/*Some of my own styles*/
-/*Perfect circle*/
-/* line 405, ../scss/foundation/components/_global.scss */
-.img-circle {
-  border-radius: 50%;
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
 }
 
 /*==========================*/
@@ -5681,6 +5932,26 @@ ul.pagination li {
 /* line 405, ../scss/foundation/components/_global.scss */
 .img-circle {
   border-radius: 50%;
+}
+
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
+}
+
+/*==========================*/
+/*Some of my own styles*/
+/*Perfect circle*/
+/* line 405, ../scss/foundation/components/_global.scss */
+.img-circle {
+  border-radius: 50%;
+}
+
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
 }
 
 /* line 169, ../scss/foundation/components/_split-buttons.scss */
@@ -5827,6 +6098,12 @@ ul.pagination li {
   border-radius: 50%;
 }
 
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
+}
+
 /* line 116, ../scss/foundation/components/_sub-nav.scss */
 .sub-nav {
   display: block;
@@ -5892,6 +6169,12 @@ ul.pagination li {
 /* line 405, ../scss/foundation/components/_global.scss */
 .img-circle {
   border-radius: 50%;
+}
+
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
 }
 
 /* line 289, ../scss/foundation/components/_switch.scss */
@@ -6137,6 +6420,12 @@ div.switch.round label {
   border-radius: 50%;
 }
 
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
+}
+
 /* line 89, ../scss/foundation/components/_tables.scss */
 table {
   background: white;
@@ -6188,12 +6477,24 @@ table tfoot tr td {
   border-radius: 50%;
 }
 
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
+}
+
 /*==========================*/
 /*Some of my own styles*/
 /*Perfect circle*/
 /* line 405, ../scss/foundation/components/_global.scss */
 .img-circle {
   border-radius: 50%;
+}
+
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
 }
 
 /* line 25, ../scss/foundation/components/_tabs.scss */
@@ -6323,6 +6624,12 @@ table tfoot tr td {
   border-radius: 50%;
 }
 
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
+}
+
 /* Image Thumbnails */
 /* line 63, ../scss/foundation/components/_thumbs.scss */
 .th {
@@ -6353,6 +6660,12 @@ table tfoot tr td {
 /* line 405, ../scss/foundation/components/_global.scss */
 .img-circle {
   border-radius: 50%;
+}
+
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
 }
 
 /* Tooltips */
@@ -6456,12 +6769,24 @@ table tfoot tr td {
   border-radius: 50%;
 }
 
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
+}
+
 /*==========================*/
 /*Some of my own styles*/
 /*Perfect circle*/
 /* line 405, ../scss/foundation/components/_global.scss */
 .img-circle {
   border-radius: 50%;
+}
+
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
 }
 
 /* line 80, ../scss/foundation/components/_top-bar.scss */
@@ -7011,6 +7336,12 @@ meta.foundation-mq-topbar {
   border-radius: 50%;
 }
 
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
+}
+
 /* Typography resets */
 /* line 145, ../scss/foundation/components/_type.scss */
 div,
@@ -7471,12 +7802,10 @@ blockquote p {
   border-radius: 50%;
 }
 
-/*==========================*/
-/*Some of my own styles*/
-/*Perfect circle*/
-/* line 405, ../scss/foundation/components/_global.scss */
-.img-circle {
-  border-radius: 50%;
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
 }
 
 /*==========================*/
@@ -7487,12 +7816,38 @@ blockquote p {
   border-radius: 50%;
 }
 
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
+}
+
 /*==========================*/
 /*Some of my own styles*/
 /*Perfect circle*/
 /* line 405, ../scss/foundation/components/_global.scss */
 .img-circle {
   border-radius: 50%;
+}
+
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
+}
+
+/*==========================*/
+/*Some of my own styles*/
+/*Perfect circle*/
+/* line 405, ../scss/foundation/components/_global.scss */
+.img-circle {
+  border-radius: 50%;
+}
+
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
 }
 
 /* line 274, ../scss/foundation/components/_offcanvas.scss */
@@ -7812,6 +8167,12 @@ ul.off-canvas-list li a {
 /* line 405, ../scss/foundation/components/_global.scss */
 .img-circle {
   border-radius: 50%;
+}
+
+/*use for justifying buttons*/
+/* line 411, ../scss/foundation/components/_global.scss */
+.justify-button {
+  min-width: 100%;
 }
 
 /* Foundation Visibility HTML Classes */

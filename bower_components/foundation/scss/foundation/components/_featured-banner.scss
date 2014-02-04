@@ -10,11 +10,22 @@ hr {
 
 #morebutton {
 	text-align: middle;
-	font-size: 2rem;
-/*	margin-top: -9rem;
-*/	z-index: 100;
+	margin-top: -9rem;
 	position: relative;
 	bottom: 0;
+	min-width: 100%;
+	right: auto;
+	left: auto;
+}
+
+
+#morebutton-blue {
+	text-align: middle;
+	position: relative;
+	bottom: 0;
+	min-width: 100%;
+	right: auto;
+	left: auto;
 }
 
 
@@ -25,7 +36,9 @@ hr {
 	background-color: $primary-color;
 	opacity: .8;
 	min-width: 100%;
-	padding-top: 7rem;
+	padding-top: 15%;
+	padding-left: 1%;
+	padding-right: 1%;
 	color: white;
 	#equip {
 		color: white;
@@ -56,6 +69,7 @@ hr {
 #full-2 {
 	background-color: white;
 	min-width: 100%;
+	opacity: .9;
 	#whatisrm {
 		padding-top: 2rem;
 		padding-bottom: 2rem;
@@ -65,6 +79,18 @@ hr {
 .overview {
 	img {
 		max-width: 80px;
+	}
+}
+
+#bluebutton {
+	border: 1px solid $primary-color;
+	background-color: white;
+	min-width: 100%;
+	color: $primary-color;
+	&:hover {
+		background-color: $primary-color;
+		color: white;
+
 	}
 }
 
@@ -82,10 +108,12 @@ hr {
 	}
 }
 
-#whatson {
 
+
+#featuring {
+	padding-top: 2rem;
+	padding-bottom: .89rem;
 }
-
 
 #greenbutton {
 	border: 1px solid white;
@@ -99,3 +127,25 @@ hr {
 }
 
 
+
+/*================================================*/
+/*This is the featured posts area*/
+
+#full-4 {
+	background-color: lighten(#373737, 15%);
+	color: white;
+	min-width: 100%;
+	h1, h2, h3, h4, h5, h6, a {
+		color: white;
+	}
+}
+
+/*================================================*/
+/*Table styling*/
+
+table, thead, tr, td, tbody {
+	background-color: $rethink-green;
+	border: 1px solid white;
+	border-radius: 5px;
+	color: white;
+}

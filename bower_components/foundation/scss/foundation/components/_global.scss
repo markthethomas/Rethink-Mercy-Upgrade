@@ -405,3 +405,9 @@ $cursor-text-value: text !default;
 .img-circle {
   border-radius: 50%; // set radius in percents
 }
+
+/*use for justifying buttons*/
+
+.justify-button {
+  min-width: 100%;
+}

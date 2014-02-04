@@ -246,7 +246,7 @@
 			.css('min-height','100%');
 		
 		// add the image to the video
-		// if suuports video
+		// if suports video
 		if ($.fn.videoBG.supportsVideo()) {
 			// add the video to the wrapper
 			$div.html($video);
